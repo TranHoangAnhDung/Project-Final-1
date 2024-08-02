@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #ffff;
+  color: #1a1a1a;
+  position: relative;
+  width: 100%;
+}
+
+.col-lg-6 {
+  margin: 20px 0px;
+}
+.img img {
+  object-fit: cover;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.content h1 {
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.content h3 {
+  font-weight: 400;
+  font-size: 26px;
+  padding: 25px 0px;
+  border-bottom: 1px solid rgba(60, 60, 60, 0.3);
+}
+
+.content > p {
+  font-size: 20px;
+}
+
+.btn-setup {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-detail {
+  background-color: #1a1a1a;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.btn-detail:hover {
+  background-color: rgba(60, 60, 60, 0.9);
+  color: white;
+}
+
+.btn-detail:active {
+  transform: scale(0.9);
+}
+
+/* !test */
+.nav_search {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 50px;
+  column-gap: 30px;
+  margin-top: 26px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+  padding: 10px 0px;
+}
+
+/* Shopping cart layout */
+.btn-shoppingcart {
+  position: relative;
+  border-left: 1px solid rgba(55, 55, 55, 0);
+  border-bottom: 1px solid rgba(55, 55, 55, 0);
+  transition: 0.2s;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+.btn-shoppingcart:hover {
+  border-left: 1px solid rgba(55, 55, 55, 0.7);
+  border-bottom: 1px solid rgba(55, 55, 55, 0.7);
+  box-shadow: -2px 2px #333333;
+}
+
+.btn-shoppingcart a {
+  display: flex;
+  text-align: center;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: start;
+  text-decoration: none;
+  color: #333333;
+  height: 50px;
+}
+
+.btn-shoppingcart a > p{
+    margin: 0px;
+}
+
+.btn-shoppingcart .fa-cart-shopping {
+  font-size: 25px;
+}
+
+.btn-shoppingcart .shopping-count {
+  position: absolute;
+  top: -3px;
+  right: -10px;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}

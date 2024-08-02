@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- add CSS -->
+    <link rel="stylesheet" href="./cartWeb.css">
+    <!-- add icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- add Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+  <div class="header-animation-container">
+    <div class="header-animation">
+      <span>Chuột không dây Silentium Mini</span>
+      <span>Bàn phím không dây SilentKey | Office Daily</span>
+      <span>Tủ thép di động Ivy | Make my office</span>
+      <span>Luna | Đèn LED kẹp bàn chân thực, đa năng</span>
+      <span>P1 Dual | The first pole monitor arm</span>
+    </div>
+  </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid container">
+          <img
+            class="hyperworks-logo"
+            src="https://hyperwork.vn/cdn/shop/files/Logo_HPW_-_Black.png?v=1695195500&width=200"
+            alt=""
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse navbar-design"
+            id="navbarSupportedContent"
+          >
+            <div class="col-lg-2"></div>
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 align-self-center bold nav-cus"
+            >
+              <li class="nav-item">
+                <a class="nav-link active padding-15" aria-current="page" href="#"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link padding-15" href="#">Helpdesk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link padding-15" href="#">E-Warranty</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle padding-15"
+                  href="../view/product.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sản Phẩm
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../view/product.html">Giá đỡ</a></li>
+                  <li><a class="dropdown-item" href="#">Nội Thất</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Thiết bị ngoại vi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle padding-15"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Chương trình
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Outlet sale</a></li>
+                  <li><a class="dropdown-item" href="#">Minigame</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled padding-15" aria-disabled="true"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <div class="header">
+        <div class="sellingProduct">
+          <h1>10,000</h1>
+          <p style="font-size: 2.5vw">đơn hàng được phục vụ mỗi năm</p>
+        </div>
+        <div class="feedBack">
+          <h1>92%</h1>
+          <p style="font-size: 2.5vw">Nhận được phản hồi tốt</p>
+        </div>
+      </div>
+
+    <div class="continueShopping">
+        <div style="font-size: 40px;">
+            <i class="fa fa-shopping-cart"></i>
+            <span>0</span>
+        </div>
+    
+        <div><h1 class="header1">Giỏ hàng của bạn đang trống</h1></div>
+    
+        <button type="submit" class="btnContinueShopping">
+            <div><a class="clickToMove" href="../view/product.html">Tiếp tục mua sắm</a></div>
+        </button>
+    </div>
+   
+    <div class="footer">
+        <div class="last container">
+              <div class="lastInfo">
+                <h4>Đăng ký nhận tin tức kèm ưu đãi sớm từ HyperWork ngay hôm nay!</h4>
+                <input type="Email" placeholder="Email" />
+              </div>
+              <div class="support">
+                <h5>Hỗ trợ</h5>
+                <a class="text-decoration" href="">Về chúng tôi</a><br />
+                <a class="text-decoration" href="">Bảo mật thông tin</a><br />
+                <a class="text-decoration" href="">Bảo hành & Đổi trả</a><br />
+                <a class="text-decoration" href="">Điều khoản sử dụng</a><br />
+                <a class="text-decoration" href="">Chính sách hoàn tiền</a><br />
+                <a class="text-decoration" href="">Chính sách vận chuyển</a><br />
+                <a class="text-decoration" href="">Liên hệ</a>
+              </div>
+              <div class="Menu" style="padding-right: 5%">
+                <h5>Menu chính</h5>
+                <a class="text-decoration" href="">Trang chủ</a><br />
+                <a class="text-decoration" href="">Sản phẩm</a><br />
+                <a class="text-decoration" href="">Helpdesk</a><br />
+                <a class="text-decoration" href="">Blog</a><br />
+                <a class="text-decoration" href="">E-Warranty</a><br />
+                <a class="text-decoration" href="">Chương trình</a><br />
+              </div>
+              <div>
+                <h5>Line Sản Phẩm</h5>
+                <a class="text-decoration" href="">Giá đỡ</a><br />
+                <a class="text-decoration" href="">Nội thất</a><br />
+                <a class="text-decoration" href="">Thiết bị ngoại vi</a><br />
+                <a class="text-decoration" href="">Phụ kiện setup</a><br />
+                <a class="text-decoration" href="">Phụ kiện lifestyle</a><br />
+              </div>
+            </div>
+            <div class="alili container">
+              <p>© 2024, HyperWork.</p>
+              <p>
+                Công ty cổ phần dịch vụ và thương mại 3H Việt Nam. Giấy chứng nhận Đăng
+                ký kinh doanh số: 0109193046 đăng ký tại Sở Kế Hoạch Đầu Tư Thành Phố Hà
+                Nội cấp ngày: 21-5-2020.
+              </p>
+              <p>
+                Địa chỉ: Lô B2-22 Vinhomes Gardenia, P.Hàm Nghi, Cầu Diễn, Từ Liêm, Hà
+                Nội
+              </p>
+              <p>- TP. Hà Nội: 090.128.2468</p>
+              <p>- TP. Hồ Chí Minh: 0968.606.023</p>
+              <img
+                src="https://cdn.shopify.com/s/files/1/0591/7006/2395/files/bct.png?v=1666942170"
+                alt=""
+              />
+            </div>
+        </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <!-- <script src="../view/product.js"></script> -->
+</body>
+</html>

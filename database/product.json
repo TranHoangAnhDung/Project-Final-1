@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "Dây dán HyperWork Velcro Tape",
+        "price": 59000,
+        "status": 1,
+        "img": "../img-product/product1.webp",
+        "description": "Thao tác dễ dàng khi sử dụng, dính chắc chắn. Kích thước 200 x 1,2 cm. Có thể tách nhỏ thành các đoạn 20 cm mà không cần dùng kéo. Có thể tái sử dụng. Quản lý các loại dây cáp, sạc và các đồ dùng khác gọn gàng."
+    },
+    {
+        "id": 2,
+        "name": "Khay đựng đồ HyperWork AT01",
+        "price": 320000,
+        "status": 1,
+        "img": "../img-product/product2.webp",
+        "description": "Chứa các vật dụng nhỏ, dễ thất lạc, có thể lấy luôn trong tầm với. Bề mặt lót vải nhung chống xước xát. Đồng bộ cùng các sản phẩm Premium Collection, làm đẹp không gian."
+    },
+    {
+        "id": 3,
+        "name": "Giá đỡ tai nghe HyperWork HS01",
+        "price": 390000,
+        "status": 1,
+        "img": "../img-product/product3.webp",
+        "description": "Bảo vệ tai nghe, tránh thất lạc, rơi, hỏng hóc. Tích hợp chân đế khay gỗ đựng thêm đồ. Đồng bộ cùng các sản phẩm Premium Collection, làm đẹp không gian."
+    },
+    {
+        "id": 4,
+        "name": "Giá đỡ màn hình đôi HyperWork P1 Dual",
+        "price": 1090000,
+        "status": 1,
+        "img": "../img-product/product4.webp",
+        "description": "Cơ chế điều chỉnh độ cao linh hoạt của từng tay đòn, cho phép thiết lập 2 màn trên dưới dễ dàng.Công nghệ trợ lực piston bền bỉ, chuyển động mượt mà.Tải trọng từ 2-9 kg/màn, hỗ trợ màn từ 22-34 inch với chuẩn VESA 75x75 | 100x100 mm.Có thể điều chỉnh kháng lực.Bổ sung phụ kiện tăng độ chắc chắn cho ngàm, giúp tháo rời ngàm.Tích hợp khay đế làm giá đỡ điện thoại"
+    },
+    {
+        "id": 5,
+        "name": "Bàn phím không dây HyperWork SilentKey",
+        "price": 790000,
+        "status": 1,
+        "img": "../img-product/product5.webp",
+        "description": "Kích thước full size đáp ứng đầy đủ nhu cầu về nhập liệu, không cần ghi nhớ phím tắt. 3 chế độ kết nối | Kết nối tối đa 5 thiết bị. Hạn chế tiếng ồn khi gõ phím, giữ sự tập trung cho người dùng với kết cấu phím cắt kéo 'X-Scissors'. Thời lượng pin sử dụng trong 25 ngày. Có thể dùng chung receiver 2.4 Ghz của chuột Silentium Mini (receiver này có thể kết nối cả chuột và bàn phím - HyperWork khuyến khích mua combo)"
+    },
+    {
+        "id": 6,
+        "name": "Chuột không dây HyperWork Silentium Mini",
+        "price": 350000,
+        "status": 1,
+        "img": "../img-product/product6.webp",
+        "description": "Sử dụng 2 chế độ kết nối | Kết nối tối đa 2 thiết bị. Hạn chế tiếng ồn khi click, giúp người dùng tập trung hơn với Silent Switch. Thời lượng pin sử dụng trong 50 ngày. Thiết kế đối xứng, ôm theo lòng bàn tay, kích thước nhỏ gọn dễ dàng mang theo. Có thể dùng chung receiver 2.4 Ghz của chuột Silentium Mini cho bàn phím SilentKey (receiver này có thể kết nối cả chuột và bàn phím - HyperWork khuyến khích mua combo)"
+    },
+    {
+        "id": 7,
+        "name": "Kệ màn hình HyperWork DS01",
+        "price": 1590000,
+        "status": 1,
+        "img": "../img-product/product7.webp",
+        "description": "Thiết kế 2 tầng, tận dụng tối đa diện tích khu vực phía dưới màn hình. Độ rộng được thiết kế đặt vừa laptop cỡ lớn. Đồng bộ cùng các sản phẩm Premium Collection, làm đẹp không gian"
+    },
+    {
+        "id": 8,
+        "name": "Giá đỡ Laptop - LH01",
+        "price": 590000,
+        "status": 1,
+        "img": "../img-product/product8.webp",
+        "description": "Bảo vệ laptop, tránh xước xát, rơi vỡ. Có thể điều chỉnh độ rộng của khe phù hợp độ dày của laptop. Đồng bộ cùng các sản phẩm Premium Collection, làm đẹp không gian"
+    },
+    {
+        "id": 9,
+        "name": "HyperWork Premium Collection",
+        "price": 3590000,
+        "status": 1,
+        "img": "../img-product/product9.webp",
+        "description": "Giá đỡ laptop. Giá đỡ tai nghe. Kệ màn hình. Khay đựng đồ. Cốc đựng bút"
+    },
+    {
+        "id": 10,
+        "name": "Pad chuột HyperWork Fable",
+        "price": 590000,
+        "status": 1,
+        "img": "../img-product/product10.webp",
+        "description": "Sử dụng họa tiết Aero Dynamic Wave, tặng kèm hình nền desktop. 2 phân loại kích thước L: 450x400x5 mm và XL: 900x400x5 mm. Pad chuột chất lượng cao với 3 lớp: đế cao su chống trượt, lớp vải Cordura siêu mịn, lớp phủ chống nước. Độ dày 5 mm êm ái khi sử dụng, bo viền nhỏ giúp di chuyển mượt mà. Bề mặt Speed phục vụ tốt nhu cầu chơi game (kể cả các tựa game FPS)"
+    },
+    {
+        "id": 11,
+        "name": "Giá đỡ Microphone HyperWork MA-01S",
+        "price": 990000,
+        "status": 1,
+        "img": "../img-product/product11.webp",
+        "description": "3 khớp nối điều chỉnh linh hoạt. Chất liệu hợp kim chịu lực, sơn tĩnh điện cao cấp . Lò xo trợ lực thế hệ mới . 2 lựa chọn màu sắc Đen và Bạc, phù hợp nhiều sở thích và phong cách setup . Lắp đặt kẹp hoặc khoan bàn tiện lợi. Hỗ trợ giữ microphone ổn định, điều chỉnh vị trí linh hoạt trong các hoạt động thu âm"
+    },
+    {
+        "id": 12,
+        "name": "Tủ tài liệu thép di động HyperWork IVY",
+        "price": 2590000,
+        "status": 1,
+        "img": "../img-product/product12.webp",
+        "description": "Sử dụng vật liệu thép uốn cong với độ dày 0,7 mm, an toàn khi sử dụng, di chuyển hoặc va chạm. 4 màu thời thượng bao gồm Đen, Trắng-Xám, Xanh lá, Hồng. Không cần lắp đặt. Kích thước: 40 x 50 x 60 cm (chiều ngang x chiều sâu x chiều cao). Tối ưu diện tích, sử dụng linh động, làm đẹp không gian. Bảo hành 12 tháng "
+    },
+    {
+        "id": 13,
+        "name": "Giá đỡ màn hình HyperWork VisionX - VS01",
+        "price": 2190000,
+        "status": 1,
+        "img": "../img-product/product13.webp",
+        "description": "Vỏ nhôm đánh bóng sang trọng, cao cấp. Công nghệ trợ lực piston Hyper Lift Pro chịu tải mạnh mẽ, chuyển động mượt mà. Tải trọng 3-18 kg, hỗ trợ màn từ 23 - 43 inch với chuẩn VESA 75x75 | 100x100 mm. Bổ sung ngàm chuyển đổi (có thể mua kèm) tăng tải trọng lên 20kg, nâng màn lên đến 49 inch. Thiết kế đóng hộp hoàn toàn mới. Bảo hành 12 tháng"
+    },
+    {
+        "id": 14,
+        "name": "Kê tay bàn phím HyperWork Hybrid - gỗ kết hợp nhôm CNC",
+        "price": 590000,
+        "status": 1,
+        "img": "../img-product/product14.webp",
+        "description": "Thiết kế công thái học bảo vệ cổ tay khi sử dụng bàn phím. Sử dụng kết hợp chất liệu gỗ óc chó nhập khẩu và nhôm cao cấp. Phủ dầu chất lượng cao bảo vệ bề mặt gỗ. Có 3 phân loại kích thước: 30 cm, 32 cm, 36 cm. Feet chống trượt cao su chống xê dịch khi sử dụng. Toàn bộ các cạnh được vát CNC đều đẹp, tỉ mỉ"
+    },
+    {
+        "id": 15,
+        "name": "Giá đỡ màn hình HyperWork Alpha | HPW-GMA1",
+        "price": 1090000,
+        "status": 1,
+        "img": "../img-product/product15.webp",
+        "description": "Tải trọng 2-12 kg, hỗ trợ màn hình từ 22 - 34 inch và chuẩn VESA 75x75 | 100x100 mm. Trợ lực lò xo HyperLift +2.0 được thử nghiệm cơ học 25.000 lần, đảm bảo chất lượng an toàn. 2 lựa chọn màu sắc Cam - Đen và Trắng - Đen cá tính, khác biệt, phù hợp với gamer. Linh hoạt lắp đặt 2 hình thức kẹp bàn hoặc khoan bàn. Sản phẩm được bảo hành trong 12 tháng"
+    },
+    {
+        "id": 16,
+        "name": "Ghế công thái học HyperWork Airy",
+        "price": 3390000,
+        "status": 1,
+        "img": "../img-product/product16.webp",
+        "description": "Kết cấu 100% lưới cho cảm giác ngồi êm ái, thoáng mát. Bộ chuyển động FluidMotion với tính năng phong phú: Kháng lực, ngả 120 độ, trượt mâm ghế,.... Hai vị trí điều chỉnh tựa lưng thông minh, đảm bảo lưng ghế luôn ôm sát cơ thể. Piston Class 4 chuẩn BIFMA: An toàn và bền bỉ"
+    },
+    {
+        "id": 17,
+        "name": "Ghế công thái học HyperWork Sleek",
+        "price": 4690000,
+        "status": 1,
+        "img": "../img-product/product17.webp",
+        "description": "Thiết kế tinh gọn, cao cấp cho không gian thêm chuyên nghiệp. Lưới mềm mịn & êm ái với vật liệu từ Italia. Bộ chuyển động FluidMotion Pro đẹp mắt, tiện lợi. Bệ tì tay 4D, điều chỉnh đệm lưng linh hoạt"
+    },
+    {
+        "id": 18,
+        "name": "Giá đỡ Điện thoại/Tablet khung nhôm HyperWork M1",
+        "price": 250000,
+        "status": 1,
+        "img": "../img-product/product18.webp",
+        "description": "Thiết kế cao cấp, xếp lại gọn và rất nhẹ. Chất liệu nhôm cao cấp, bền. Made in Việt Nam. Giữ máy chắc chắn, dễ dàng tùy chỉnh nhiều góc độ. Bảo hành 12 tháng"
+    }
+]

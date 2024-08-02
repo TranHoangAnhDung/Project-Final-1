@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - HyperWork</title>
+    <!-- add CSS -->
+    <link rel="stylesheet" href="./cartWeb.css">
+    <!-- add Bootstrap / icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- add font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <div class="headerCheckout">
+    <div class="header-content container">
+        <div class="img-header container">
+          <a href="../view/product.html">
+            <img alt="" src="https://cdn.shopify.com/s/files/1/0591/7006/2395/files/hpw-blk_x320.png?v=1665637132" width="210" height="60" class="iN5nW">
+          </a>
+        </div>
+
+        <div class="icon-cart-checkout">
+          <a href="./cartWeb.html" style="color: black;"><i class="fa fa-shopping-cart"></i></a></i>
+        </div>
+    </div>
+  </div>  
+
+    <div class="container">
+        <div class="row">
+          <form class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label" style="margin-top: 40px;"><strong>Contact</strong></label>
+                <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Email" required>
+                <div class="error-message"></div>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"  style="cursor: pointer;">
+                <label class="form-check-label" for="flexCheckDefault"  style="cursor: pointer;">
+                    Email me with news and offers
+                </label>
+              </div><br>
+
+              <div class="col">
+                <label for="exampleFormControlInput1" class="form-label"><strong>Delivery</strong></label>
+                <div class="form-floating">
+                    <select class="form-select selectForm" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Vietnam</option>
+                    </select>
+                    <label for="floatingSelect">Country/Region</label>
+                  </div>
+              </div><br>
+
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" name="firstName" placeholder="First name" aria-label="First name" required>
+                  <div class="error-message"></div>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" name="lastName" placeholder="Last name" aria-label="Last name" required>
+                  <div class="error-message"></div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="inputAddress" class="form-label"></label>
+                <input type="text" class="form-control" name="address" id="inputAddress" placeholder="Address" required>
+                <div class="error-message"></div>
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label"></label>
+                <input type="text" class="form-control" name="address2" id="inputAddress2" placeholder="Apartment, suite, etc. (optional)">
+              </div><br>
+
+              <div class="row g-3">
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" name="city" placeholder="City" aria-label="City" required>
+                  <div class="error-message"></div>
+                </div>
+                <div class="col-sm">
+                  <input type="text" class="form-control" name="postal" placeholder="Postal code (optional)" aria-label="Postal code (optional)">
+                </div>
+              </div><br>
+
+              <div class="col-12" style="display: flex;">
+                <label for="inputAddress" class="form-label"></label>
+                <input type="text" class="form-control" name="phone" id="inputAddress" placeholder="Phone" required>
+               
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="In case we need to contact you about your order">
+                    ?
+                  </button>
+              </div><br>
+              <div class="error-message"></div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck" style="cursor: pointer;">
+                  <label class="form-check-label" for="gridCheck" style="cursor: pointer;">
+                    Save this information for next time
+                  </label>
+                </div>
+              </div><br>
+
+              <div class="shippingMethod">
+                <label for="exampleFormControlInput1" class="form-label"><strong>Shipping Method</strong></label>
+              
+                <div class="form-check" id="normalShipFee">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked onclick="onChangeShippingMethod(this);" value="35000">
+                  <label class="form-check-label" for="flexRadioDefault1" style="display: flex; justify-content: space-between; cursor: pointer;">
+                    Vận chuyển tiêu chuẩn (Gửi hàng sau 24h)
+                    <strong>₫35,000</strong>
+                  </label>
+                </div>
+
+                <div class="form-check" id="fastShipFee">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="onChangeShippingMethod(this);" value="55000">
+                  <label class="form-check-label" for="flexRadioDefault2" style="display: flex; justify-content: space-between; cursor: pointer;">
+                    Vận chuyển hỏa tốc 2 giờ (Hà Nội - TP.HCM)
+                    <strong>₫55,000</strong>
+                  </label>
+                </div>
+
+              </div><br>
+
+              <div class="payment" style="margin-bottom: 20px;">
+                <label for="exampleFormControlInput1" class="form-label"><strong>Payment</strong></label>
+                <input class="form-control" type="text" placeholder="CASH ONLY" aria-label="Disabled input example" style="font-weight: bolder;" disabled>
+              </div><br>
+
+              
+                <button type="button" onclick="payNow()" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 100%; margin-bottom: 40px; padding: 20px 0;">
+                  Thanh Toán Ngay
+                </button>
+              </form>    
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: blue;">XÁC NHẬN ĐẶT HÀNG</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-bodyCheckOut">
+                        <div style="text-align: center; padding: 0 10px;">
+                          <strong>Cảm ơn bạn đã đặt hàng</strong>
+                          <p>Email xác nhận sẽ gửi tới <strong><span id="inputEmail"></span></strong> khi bạn ấn thanh toán</p>
+                          <p>Kiện hàng giao được tận tay tới địa chỉ nhà! Xin quý khách hãy chuẩn bị trước tiền mặt</p>
+                          <p>Shop rất hân hạnh được phục vụ quý khách hàng!</p>
+                          <p>Xin hãy kiểm tra lại thông tin bên dưới!</p>
+                        </div>
+
+                        <div id="inputInformation">
+     
+                        </div>  
+                        
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sửa lại thông tin</button>
+                        <button type="button" id="btnReset" class="btn btn-primary"><a href="../view/product.html" onclick="reset()" style="color: white; text-decoration: none;">Xác nhận thanh toán</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              
+
+          
+
+
+          <div class="col" style="border-left: 1px solid #dedede;">
+            <div class="fixed-side-checkOut" style="margin-top: 40px;">
+              <table>
+                <tbody class="inputCheckOut" id="inputCheckOut">
+                    
+                </tbody>
+              </table>
+  
+            <div class="subtotal">
+              <div>Subtotal</div>
+              <span id="subtotal-input"></span>
+            </div>
+  
+            <div class="shippingFee space-between">
+              <div>Shipping</div>
+              <span id="shippingFee-input"></span>
+            </div><br>
+  
+            <div class="totalCheckout space-between">
+              <div> <strong>Total</strong></div>
+              <strong id="totalCheckout-input"></strong>
+            </div>
+  
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <!-- <script src="./confirmPay.js"></script> -->
+    <script src="./payment.js"></script>
+</body>
+</html>
